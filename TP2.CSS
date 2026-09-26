@@ -1,1 +1,22 @@
-
+body {
+    margin: 0;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    height: 400px;
+    background-color: #e6e6e6;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 40px;
+}
