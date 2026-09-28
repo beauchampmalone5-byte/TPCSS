@@ -13,14 +13,15 @@ body {
     padding: 20px;
 }
 
-/* Fixer la largeur globale */
-header, .corps, footer {
+/* Base pour tous les conteneurs */
+header, .corps, footer, .titre-exo, p.exo4, p.exo5-rouge, p.exo5-bleu {
     width: 100%;
     max-width: 600px;
 }
 
+/* --- EXERCICE 3 --- */
 header {
-    background-color: #00a2ff; /* Bleu */
+    background-color: #00a2ff;
     color: white;
     text-align: center;
     padding: 15px;
@@ -40,7 +41,7 @@ nav {
 }
 
 .menu-haut {
-    background-color: #8cc63f; /* Vert pomme */
+    background-color: #8cc63f;
     color: white;
     height: 50%;
     display: flex;
@@ -50,7 +51,7 @@ nav {
 }
 
 .menu-bas {
-    background-color: #d182e8; /* Mauve */
+    background-color: #d182e8;
     color: white;
     height: 50%;
     display: flex;
@@ -61,7 +62,7 @@ nav {
 
 main {
     flex: 1;
-    background-color: #ffca03; /* Jaune */
+    background-color: #ffca03;
     display: flex;
     flex-direction: column;
 }
@@ -73,7 +74,6 @@ main {
     flex: 1;
 }
 
-/* Style de la balise p */
 p.texte {
     flex: 1;
     font-size: 11px;
@@ -82,7 +82,7 @@ p.texte {
 }
 
 .bloc-news {
-    background-color: #ff0000; /* Rouge */
+    background-color: #ff0000;
     color: white;
     width: 70px;
     height: 70px;
@@ -102,9 +102,36 @@ p.texte {
 }
 
 footer {
-    background-color: #00eb78; /* Vert menthe */
+    background-color: #00eb78;
     color: white;
     text-align: center;
     padding: 15px;
     font-weight: bold;
 }
+
+/* Titres des exercices */
+.titre-exo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+p.exo4 {
+    color: blue ;
+    font-size: 20px;
+    text-align: center;
+}
+p.exo5-rouge {
+    color: red ;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p.exo5-bleu {
+    color: blue ;
+    font-size: 20px;
+    text-align: center;
+}
+   
